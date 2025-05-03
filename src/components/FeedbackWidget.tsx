@@ -35,7 +35,7 @@ export default function FeedbackWidget({
     e.preventDefault();
     try {
       await axios.post(
-        'https://feedwall.vercel.app/api/feedback',
+        'https://feed-sight-rithvik.vercel.app/api/feedback',
         {
           projectid: projectId,
           name,
